@@ -9103,7 +9103,7 @@ var component = normalizeComponent(
       confection_position: confectionElement.getAttribute("position"),
       confection_analytics: confectionElement.getAttribute("analytics")
     };
-    console.log(this.settingValues.confection_position);
+    console.log("settingValues ", this.settingValues);
     this.confection_position = this.settingValues.confection_position;
     this.validateAttrValues(this.settingValues);
 
